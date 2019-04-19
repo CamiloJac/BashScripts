@@ -1,9 +1,5 @@
 #!/bin/bash
 
-#Author: Camilo Jacomet
-#CS 370 - Lab 2- shell script A
-#April 24, 2018
-
 mkdir -p ~/meals/breakfast ~/meals/lunch/soup ~/meals/lunch/dessert ~/meals/dinner/appetizer ~/meals/dinner/dish
 
 cat > ~/meals/breakfast/favorites.txt <<- EOF
