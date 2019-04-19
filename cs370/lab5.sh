@@ -1,5 +1,3 @@
-#camilo jacomet
-#lab 5
 #!/bin/bash
 set -eo pipefail
 if [[ ( -f $1  &&  -f $2) && ( "$3" != "" ) ]]; then
