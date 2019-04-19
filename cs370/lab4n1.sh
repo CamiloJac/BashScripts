@@ -1,6 +1,4 @@
 #!/bin/bash
-#Camilo Jacomet
-#Lab 4 Script 1
 set -eo pipefail
 counter=0
 startTime=$(date +%H:%M)
