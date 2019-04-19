@@ -1,10 +1,5 @@
 #!/bin/bash
 
-# Camilo Jacomet
-# CS 370 - Spring 2018
-# Lab 2 - Shell Script B
-# April 24, 2018
-
 month=$(date --date="yesterday" +%b)
 yesterday=$(date --date="yesterday" +%d)
 
