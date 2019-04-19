@@ -1,6 +1,5 @@
 #!/bin/bash
-# Camilo Jacomet
-# Script 1 lab 3
+
 if [ -d $1 ] || [ -f $1] && [ "$2" != "" ]; then
 	find $1 -ls -perm -u+rw | awk '{print $11}' | while read line 
        							do
