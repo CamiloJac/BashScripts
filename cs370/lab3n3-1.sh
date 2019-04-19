@@ -1,6 +1,4 @@
 #!/bin/bash
-# Camilo Jacomet
-# Script 3 for lab 3
 
 mkdir -p dictFiles
 
