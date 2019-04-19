@@ -1,10 +1,5 @@
 #!/bin/bash
 
-# Camilo Jacomet
-# CS 370 - Spring 2018
-# Lab 1
-# April 10, 2018
-
 RED='\033[0;31m'
 NC='\033[0m'
 os=$(cat /etc/os-release | grep ^ID | cut -c4-)
