@@ -3,7 +3,7 @@
 mkdir -p dictFiles
 
 if [ -f $1 ]; then
-	cat $1 | tr ' ' '\n' | awk '/^[a-zA-Z]/ { print tolower($0) > "dictFiles/"substr(tolower($0),0,1)".txt" }' 
+	cat $1 | tr ' ' '\n' | awk '/^[a-zA-Z]/ { print tolower($0) > "dictFiles/"substr(tolower($0),0,2)".txt" }' 
 else
     echo "$1 is not a valid file."
     exit 1
