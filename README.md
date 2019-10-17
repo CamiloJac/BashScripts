@@ -1,2 +1,2 @@
 # BashScripts
-Collection of different Bash scripts for my VM's
+Collection of different Bash scripts for Unix class at CWU.
